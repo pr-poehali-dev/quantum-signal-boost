@@ -1,0 +1,4 @@
+ALTER TABLE withdrawals ADD COLUMN IF NOT EXISTS payment_method VARCHAR(50) DEFAULT 'card';
+ALTER TABLE withdrawals ADD COLUMN IF NOT EXISTS bank_name VARCHAR(100);
+ALTER TABLE withdrawals ADD COLUMN IF NOT EXISTS phone_number VARCHAR(20);
+ALTER TABLE withdrawals ADD COLUMN IF NOT EXISTS account_number VARCHAR(30);

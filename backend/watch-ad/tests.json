@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Get ads list",
+      "name": "Get ads list with rotation",
       "method": "GET",
       "path": "/",
       "expectedStatus": 200,
-      "expectedBody": {"ads": [{"id": 1}]},
+      "expectedBody": {"total_available": 50},
       "bodyMatcher": "partial"
     }
   ]

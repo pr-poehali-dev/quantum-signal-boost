@@ -2,7 +2,11 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
-export function Navbar() {
+interface NavbarProps {
+  onStartEarning?: () => void
+}
+
+export function Navbar({ onStartEarning }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -30,7 +34,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Начать зарабатывать</Button>
+            <Button onClick={onStartEarning} className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Начать зарабатывать</Button>
           </div>
 
           <div className="md:hidden">
@@ -61,7 +65,7 @@ export function Navbar() {
                 Вопросы
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
+                <Button onClick={onStartEarning} className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
                   Начать зарабатывать
                 </Button>
               </div>

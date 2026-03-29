@@ -113,7 +113,11 @@ const Scene = () => {
   )
 }
 
-export const Hero3DWebGL = () => {
+interface HeroProps {
+  onStartEarning?: () => void
+}
+
+export const Hero3DWebGL = ({ onStartEarning }: HeroProps) => {
   const titleWords = "DonPatchYYeasymoney".split(" ")
   const subtitle = "Смотри рекламу — зарабатывай реальные деньги. 50% прибыли сразу на твой счёт."
   const [visibleWords, setVisibleWords] = useState(0)
@@ -181,6 +185,19 @@ export const Hero3DWebGL = () => {
             {subtitle}
           </div>
         </div>
+        {subtitleVisible && (
+          <div
+            className="mt-8 fade-in-subtitle pointer-events-auto"
+            style={{ animationDelay: `${titleWords.length * 0.13 + 0.5 + subtitleDelay}s` }}
+          >
+            <button
+              onClick={onStartEarning}
+              className="bg-red-500 hover:bg-red-600 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+            >
+              Начать зарабатывать
+            </button>
+          </div>
+        )}
       </div>
     </div>
   )

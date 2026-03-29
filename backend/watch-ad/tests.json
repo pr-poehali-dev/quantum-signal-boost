@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get ads list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"ads": [{"id": 1}]},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

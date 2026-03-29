@@ -99,15 +99,15 @@ export function WithdrawModal({ balance, token, onClose, onSuccess }: WithdrawMo
               <Input
                 className="bg-zinc-800 border-zinc-700 text-white mt-1"
                 type="number"
-                placeholder="Минимум 500 ₽"
-                min={500}
+                placeholder="Минимум 50 ₽"
+                min={50}
                 max={balance}
                 step={0.01}
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
                 required
               />
-              <p className="text-xs text-gray-500 mt-1">Минимальная сумма: 500 ₽</p>
+              <p className="text-xs text-gray-500 mt-1">Минимальная сумма: 50 ₽</p>
             </div>
 
             {error && (

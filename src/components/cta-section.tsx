@@ -33,7 +33,7 @@ export function CTASection({ onStartEarning }: CTASectionProps) {
             </Button>
           </div>
           <p className="mt-6 text-sm text-muted-foreground">
-            🔒 Без вложений · Вывод от 500 ₽ · Работает на iOS, Android и браузере
+            🔒 Без вложений · Вывод от 50 ₽ · Работает на iOS, Android и браузере
           </p>
         </div>
       </div>

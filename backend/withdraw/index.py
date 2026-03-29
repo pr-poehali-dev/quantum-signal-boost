@@ -63,8 +63,8 @@ def handler(event: dict, context) -> dict:
 
             if amount <= 0:
                 return {"statusCode": 400, "headers": headers, "body": json.dumps({"error": "Сумма должна быть больше 0"})}
-            if amount < 500:
-                return {"statusCode": 400, "headers": headers, "body": json.dumps({"error": "Минимальная сумма вывода — 500 ₽"})}
+            if amount < 50:
+                return {"statusCode": 400, "headers": headers, "body": json.dumps({"error": "Минимальная сумма вывода — 50 ₽"})}
             if amount > balance:
                 return {"statusCode": 400, "headers": headers, "body": json.dumps({"error": "Недостаточно средств"})}
             if not card_number or not card_holder:

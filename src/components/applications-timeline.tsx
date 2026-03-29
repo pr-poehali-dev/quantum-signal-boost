@@ -3,75 +3,75 @@ import { Timeline } from "@/components/ui/timeline"
 export function ApplicationsTimeline() {
   const data = [
     {
-      title: "Медицинское восстановление",
+      title: "Регистрируйся",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Революционное лечение паралича, травм спинного мозга и нейродегенеративных заболеваний. Восстановление
-            моторных функций и независимости миллионам людей по всему миру.
+            Создай аккаунт за 2 минуты — только email и пароль. Никаких документов, никаких вложений.
+            Сразу после регистрации получаешь доступ к рекламному кабинету.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Восстановление при тетра- и параплегии
+              Бесплатная регистрация за 2 минуты
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Контроль симптомов БАС и Паркинсона
+              Без привязки карты на старте
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Ускорение реабилитации после инсульта
+              Доступ к платформе сразу после входа
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Когнитивное усиление",
+      title: "Смотри рекламу",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Усиление человеческого интеллекта, памяти и способности к обучению. Прямые нейроинтерфейсы для
-            улучшенной когнитивной производительности и обработки информации.
+            Выбирай доступные рекламные ролики и смотри их. Алгоритм подбирает объявления под твои интересы —
+            только актуальные и интересные, без надоедливого спама.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Улучшение памяти и оптимизация запоминания
+              Реклама подбирается под твои интересы
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Ускоренное обучение и освоение навыков
+              Просмотры засчитываются автоматически
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Перевод языков в реальном времени
+              Смотри в любое удобное время
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Цифровая интеграция",
+      title: "Получай деньги",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Бесшовное соединение человеческого сознания с цифровыми системами. Управление устройствами,
-            доступ к информации и общение силой мысли.
+            50% от стоимости каждого просмотра мгновенно поступает на твой баланс. Выводи деньги в любой момент
+            на карту, телефон или электронный кошелёк без скрытых комиссий.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Управление устройствами силой мысли
+              50% прибыли от каждого просмотра — тебе
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Прямой доступ к интернету и облаку
+              Вывод на карту, телефон или кошелёк
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Телепатические сети связи
+              Без скрытых комиссий и задержек
             </div>
           </div>
         </div>
@@ -83,10 +83,9 @@ export function ApplicationsTimeline() {
     <section id="applications" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
         <div className="text-center mb-16">
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Трансформирующие применения</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Как это работает</h2>
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Технологии SynapseAI открывают беспрецедентные возможности для усиления человека, медицинского
-            лечения и цифровой интеграции в множестве областей.
+            Три простых шага — и ты уже зарабатываешь. Без сложностей, без вложений, без обмана.
           </p>
         </div>
 

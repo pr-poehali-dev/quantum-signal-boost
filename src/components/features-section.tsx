@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
+    title: "50% прибыли — тебе",
+    description: "Каждый просмотр рекламы приносит реальные деньги. Половина всей прибыли платформы автоматически зачисляется на твой счёт.",
+    icon: "money",
+    badge: "Главное",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Мгновенные выплаты",
+    description: "Накопил — вывел. Без задержек, без скрытых комиссий. Деньги поступают на карту или кошелёк в течение нескольких минут.",
     icon: "zap",
+    badge: "Быстро",
+  },
+  {
+    title: "Реклама под тебя",
+    description: "Умный алгоритм подбирает только релевантные объявления. Смотри интересное и зарабатывай больше — без лишнего спама.",
+    icon: "target",
     badge: "Умный",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Прозрачная статистика",
+    description: "Видишь каждый рубль: сколько просмотрено, сколько заработано, сколько выведено. Полный контроль над своим доходом.",
+    icon: "chart",
+    badge: "Честно",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
-    icon: "target",
-    badge: "XR Ready",
+    title: "Без вложений",
+    description: "Регистрация и использование — бесплатно. Никаких взносов и инвестиций. Просто смотри и получай деньги.",
+    icon: "free",
+    badge: "0 руб.",
+  },
+  {
+    title: "Работает везде",
+    description: "Приложение доступно на iOS, Android и в браузере. Зарабатывай в любое время — дома, в пути, в очереди.",
+    icon: "globe",
+    badge: "Мобильно",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему AdWatch?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Самый честный способ зарабатывать онлайн — без вложений, без обмана
           </p>
         </div>
 
@@ -61,12 +61,12 @@ export function FeaturesSection() {
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
+                    {feature.icon === "money" && "💰"}
+                    {feature.icon === "zap" && "⚡"}
+                    {feature.icon === "target" && "🎯"}
+                    {feature.icon === "chart" && "📊"}
+                    {feature.icon === "free" && "🆓"}
+                    {feature.icon === "globe" && "🌍"}
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}

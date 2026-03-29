@@ -11,7 +11,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <h1 className="font-orbitron text-xl font-bold text-white">
-              Ad<span className="text-red-500">Watch</span>
+              DonPatchYYeasymoney
             </h1>
           </div>
 

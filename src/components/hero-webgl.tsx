@@ -114,7 +114,7 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "AdWatch".split(" ")
+  const titleWords = "DonPatchYYeasymoney".split(" ")
   const subtitle = "Смотри рекламу — зарабатывай реальные деньги. 50% прибыли сразу на твой счёт."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)

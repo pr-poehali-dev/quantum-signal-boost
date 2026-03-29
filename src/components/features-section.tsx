@@ -45,7 +45,7 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему AdWatch?</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему DonPatchYYeasymoney?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Самый честный способ зарабатывать онлайн — без вложений, без обмана
           </p>

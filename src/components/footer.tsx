@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Ad<span className="text-red-500">Watch</span>
+              DonPatchYYeasymoney
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Платформа монетизации рекламы. Смотри — зарабатывай. 50% прибыли от каждого просмотра поступает прямо на твой счёт.
@@ -79,7 +79,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">© 2026 AdWatch. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2026 DonPatchYYeasymoney. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"

@@ -4,21 +4,21 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const testimonials = [
   {
     name: "Алексей М.",
-    role: "Пользователь AdWatch, Москва",
+    role: "Пользователь DonPatchYYeasymoney, Москва",
     avatar: "/placeholder-user.jpg",
     content:
       "Уже вывел больше 8 000 рублей за два месяца. Смотрю рекламу по утрам за кофе — деньги капают сами. Честная платформа, всё прозрачно.",
   },
   {
     name: "Ирина К.",
-    role: "Пользователь AdWatch, Санкт-Петербург",
+    role: "Пользователь DonPatchYYeasymoney, Санкт-Петербург",
     avatar: "/professional-woman-scientist.png",
     content:
       "Сначала не верила, но попробовала — и правда платят. Вывела первые деньги через неделю. Главное — никаких вложений не просят.",
   },
   {
     name: "Дмитрий Р.",
-    role: "Пользователь AdWatch, Екатеринбург",
+    role: "Пользователь DonPatchYYeasymoney, Екатеринбург",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
       "Удобно, что работает на телефоне. Смотрю рекламу в перерывах на работе. Пассивный доход — это реально, когда платят честно.",
@@ -32,7 +32,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Реальные отзывы</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Тысячи людей уже зарабатывают на AdWatch каждый день
+            Тысячи людей уже зарабатывают на DonPatchYYeasymoney каждый день
           </p>
         </div>
 

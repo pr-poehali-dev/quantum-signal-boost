@@ -24,8 +24,10 @@ export function AuthModal({ onSuccess, onClose }: AuthModalProps) {
     setLoading(true)
     setError("")
     try {
-      const body = mode === "register" ? { name, email, password } : { email, password }
-      const res = await fetch(`${AUTH_URL}/${mode}`, {
+      const body = mode === "register"
+        ? { action: "register", name, email, password }
+        : { action: "login", email, password }
+      const res = await fetch(AUTH_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
